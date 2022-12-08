@@ -1,14 +1,14 @@
 import React from 'react'
 
-const DisplayBoard = ({numberOfBooks, getAllBook}) => {
-    
-    return(
+const DisplayBoard = ({ numberOfBooks, getAllBook }) => {
+
+    return (
         <div className="display-wrapper">
             <div className="display-box">
                 <div className="display-board">
                     <h4>생성된 수</h4>
                     <div className="number">
-                    {numberOfBooks}
+                        {numberOfBooks}
                     </div>
                 </div>
                 <div className="get-button">
